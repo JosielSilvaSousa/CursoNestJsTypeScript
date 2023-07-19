@@ -16,6 +16,9 @@ export class UserEntity{
     @Column({name:'cpf',nullable:false})
     cpf:string;
     
+    @Column({ name: 'type_user', nullable: false })
+    typeUser: number;
+
     @Column({name:'password',nullable:false})
     password:string;
     
